@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>7media</title>
+</head>
+
+<body>
+    <!-- Creo el div contenedor de toda la pagina -->
+    <div class="container" id="container">
+        <!-- Dentro creo 4 div para el marcador las cartas de las dos partes y los botones -->
+        <div class="info" id="info">
+            <b><p id="jugadorPunto">Jugador: </p></b>
+            <p><b>VS</b></p>
+            <b><p id="bancaPunto">Banca: </p></b>
+        </div>
+        <br>
+        <!-- En los div player y banca creo 2 div : para la trasera de la carta el la collección de cartas ya sacadas -->
+        <div class="player" id="player">
+            <div class="cartas jug" id="jug">
+                <img class="trasera" src="imagenes/trasera_jug.jpg" alt="">
+            </div>
+            <div class="playerObtenido" id="playerObtenido">
+            </div>
+        </div>
+        <!-- En este div creo 2 botones : para reiniciar y para plantarse -->
+        <div class="boton" id="boton">
+            <input class="botones" id="reiniciar" type="button" value="Volver a empezar">
+            <input class="botones" id="plantar" type="button" value="Plantar">
+        </div>
+        <div class="banca" id="banca">
+            <div class="cartas" id="cartas">
+                <img class="trasera" src="imagenes/trasera.jpg" alt="">
+            </div>
+            <div class="bancaObtenido" id="bancaObtenido">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

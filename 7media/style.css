@@ -1,0 +1,99 @@
+/* Añado un margen interior al body y un color de fondo */
+
+body {
+    padding: 5px;
+    background-color: lightblue;
+}
+
+
+/* Al contenedor le quito los margenes */
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Alineo los elementos del marcador */
+
+.info {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* A los div para las cartas y el marcador le asigno un tipo de borde con su color y un fondo */
+
+.info,
+.player,
+.banca {
+    border-width: 1px;
+    border-color: chartreuse;
+    border-style: dashed;
+    background-color: rgb(196, 196, 196);
+}
+
+
+/* Establezco el tamaño para los div de las cartas */
+
+.player,
+.banca {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Muevo la coleccion de cartas obtenidas hacia la izquierda */
+
+.cartas {
+    float: left;
+}
+
+
+/* Cuando el puntero pasa por encima de la trasera del jugador cambia de forma */
+
+.jug {
+    cursor: pointer;
+}
+
+
+/* Estilos a los botones */
+
+.botones {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* Estilo al texto dentro del div de los botones */
+
+.boton {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 2, 119);
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+/* Estilos a las cartas dentro de la colleccion de cartas obtenidas */
+
+.cart {
+    height: 125px;
+    width: 100px;
+    margin: 5px;
+    padding: 0;
+}
+
+
+/* Estilo a las traseras de las cartas */
+
+.trasera {
+    height: 300px;
+    width: 200px;
+}
