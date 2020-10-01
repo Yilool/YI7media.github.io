@@ -35,7 +35,7 @@ traseraJugador.addEventListener('click', () => {
     if (pointPlayer > 7.5) {
         document.getElementById("boton").innerHTML += `Has perdido`
         plantar.disabled = true
-        setTimeout(actualizar, 500)
+        setTimeout(actualizar, 750)
     }
 })
 
@@ -72,7 +72,7 @@ plantar.addEventListener('click', () => {
 
     //Actualiza dentro de 0.5s
     plantar.disabled = true
-    setTimeout(actualizar, 500)
+    setTimeout(actualizar, 750)
 })
 
 //Al clikear el boton de reiniciar llama a la funcion actualizar
