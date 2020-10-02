@@ -61,7 +61,7 @@ plantar.addEventListener('click', () => {
                 document.getElementById("bancaPunto").innerHTML = `Banca: ${pointBank}`
             }
         } while (repetido == true);
-    } while (pointBank < 7)
+    } while (pointBank < pointPlayer)
 
     //Si el punto del jugador en mayor gana el jugador
     if (pointPlayer > pointBank || pointBank > 7.5) {
